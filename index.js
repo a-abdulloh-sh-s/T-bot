@@ -13,8 +13,8 @@ const bot = new Telegraf(BOT_TOKEN);
 // /start
 bot.start(async (ctx) => {
   await ctx.reply(
-    "Assalomu alykum bu Abdullohning boti, biroz kuting uning o'zi javob beradi",
-    Markup.keyboard([['Buyurtma yuborish']]).resize()
+    "Assalomu alykum bu Abdullohning boti, habaringizni yozing birozdan so'ng uning o'zi javob beradi",
+    // Markup.keyboard([['Buyurtma yuborish']]).resize()
   );
 });
 
